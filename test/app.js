@@ -10,7 +10,7 @@ describe('generator-react-redux-webpack-uswds:app', function () {
       .toPromise();
   });
 
-  it('creates files', function () {
+  it('creates files', function (done) {
     assert.file([
       'package.json',
       '.babelrc',
@@ -19,5 +19,6 @@ describe('generator-react-redux-webpack-uswds:app', function () {
       'jsconfig.json',
       'webpack.config.js'
     ]);
+    done();
   });
 });
