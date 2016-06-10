@@ -12,7 +12,12 @@ describe('generator-react-redux-webpack-uswds:app', function () {
 
   it('creates files', function () {
     assert.file([
-      'dummyfile.txt'
+      'package.json',
+      '.babelrc',
+      '.gitattributes',
+      '.gitignore',
+      'jsconfig.json',
+      'webpack.config.js'
     ]);
   });
 });
