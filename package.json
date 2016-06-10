@@ -1,6 +1,6 @@
 {
   "name": "generator-react-redux-webpack-uswds",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A yeoman generator for React/Redux/Webpack and the US Web Design Standards",
   "homepage": "",
   "author": {
